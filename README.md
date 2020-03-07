@@ -27,6 +27,16 @@
     - Generate reverb effects by designing Comb filters, Allpass filters, etc.
     - Create the room's response via deconvolution and apply to the sounds.
 
+- **W5**: 3D Audio & Virtual Sound
+
+  	- Simulate the sound sources by convoluting the original sound with ITD and ILD filters
+  	- Simulate the dynamic sources by covoluting the sound with different HRTFs at each moment
+
+- **W6**: Microphone Arrays
+
+	- Generate steering vector for different inputs' phase shifts and identify the directions of sound sources.
+	- Enable the microphone array to act like beamforming microphone and tramsform the original input to localized sound.
+
 
 
 
