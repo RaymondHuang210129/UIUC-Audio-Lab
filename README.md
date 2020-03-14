@@ -29,13 +29,18 @@
 
 - **W5**: 3D Audio & Virtual Sound
 
-  	- Simulate the sound sources by convoluting the original sound with ITD and ILD filters
-  	- Simulate the dynamic sources by covoluting the sound with different HRTFs at each moment
+    - Simulate the sound sources by convoluting the original sound with ITD and ILD filters
+    - Simulate the dynamic sources by covoluting the sound with different HRTFs at each moment
 
 - **W6**: Microphone Arrays
 
-	- Generate steering vector for different inputs' phase shifts and identify the directions of sound sources.
-	- Enable the microphone array to act like beamforming microphone and tramsform the original input to localized sound.
+    - Generate steering vector for different inputs' phase shifts and identify the directions of sound sources.
+    - Enable the microphone array to act like beamforming microphone and tramsform the original input to localized sound.
+
+- **W7**: Denoising
+
+    - Sample the background noise from recording and denoise with spectral subtraction and median filtering
+    - Dynamically sample the noise by using voice activity detector to get better result in every moment
 
 
 
