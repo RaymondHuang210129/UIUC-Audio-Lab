@@ -42,6 +42,11 @@
     - Sample the background noise from recording and denoise with spectral subtraction and median filtering
     - Dynamically sample the noise by using voice activity detector to get better result in every moment
 
+- **W8**: Pitch Tracking and modifications
+
+    - Track the voice pitch by using autocorrelation and ignore un-pitched frames
+    - Track the voice pitch by detecting zero-crossing and tune the sound with pitch synchronous overlap adding (PSOLA)
+
 
 
 
