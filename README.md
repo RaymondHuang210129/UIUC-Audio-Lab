@@ -47,6 +47,10 @@
     - Track the voice pitch by using autocorrelation and ignore un-pitched frames
     - Track the voice pitch by detecting zero-crossing and tune the sound with pitch synchronous overlap adding (PSOLA)
 
+- **W9**: Spectral Factorizations
+
+    - Learn the spectral factors in sound track and extract sounds emitted by each instrument
+    - Train the factors of human speaking and chimes and separate the mixture of the two
 
 
 
