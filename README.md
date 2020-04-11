@@ -52,5 +52,10 @@
     - Learn the spectral factors in sound track and extract sounds emitted by each instrument
     - Train the factors of human speaking and chimes and separate the mixture of the two
 
+- **W10**: Audio Classification
+
+    - Train an speech/music classifier with implementing covariance vector and Gaussian PDF function
+    - Implement music genres classifier with sklearn API and applying MFCC transformation to enhance the characteristics of each genres 
+
 
 
