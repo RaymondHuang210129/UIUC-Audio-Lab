@@ -57,5 +57,7 @@
     - Train an speech/music classifier with implementing covariance vector and Gaussian PDF function
     - Implement music genres classifier with sklearn API and applying MFCC transformation to enhance the characteristics of each genres 
 
+- **W11**: DTW and HMMs
 
+    - Apply DTW on speech recognizer to recognize user's inputs
 
